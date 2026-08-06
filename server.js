@@ -58,6 +58,64 @@ app.get('/api/destinations', (req, res) => {
   res.json(destinations);
 });
 
+// ==================== ADDED ====================
+const cultureData = [
+  {
+    id: 1,
+    title: "Sohrai & Khovar Art",
+    category: "Art & Craft",
+    description: "Traditional mural art forms practiced by indigenous women using natural earth colors, manganese mud, and twigs to decorate mud walls during harvest and marriage seasons.",
+    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 2,
+    title: "Chhau Dance & Folk Music",
+    category: "Dance & Music",
+    description: "A vibrant semi-classical martial art dance recognized by UNESCO, famous for its energetic movements, battle themes, and elaborate handmade masks.",
+    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 3,
+    title: "Indigenous Tribes",
+    category: "Communities",
+    description: "Jharkhand is home to over 30 major tribes including Santhal, Munda, Oraon, Ho, and Kharia, each with unique languages, attires, and rich cultural traditions.",
+    image: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=600&q=80"
+  }
+];
+
+const festivalsData = [
+  {
+    id: 1,
+    name: "Sarhul Festival",
+    date: "March – April (Spring Season)",
+    description: "Known as the festival of flowers, the Sal tree is worshipped by the Oraon, Munda, and Santhal tribes to mark the beginning of the new year and spring harvest.",
+    location: "All over Jharkhand"
+  },
+  {
+    id: 2,
+    name: "Karma Festival",
+    date: "August – September (Bhadra Month)",
+    description: "A major festival celebrating nature, youth, and the Karma tree branch. Sisters fast and pray for the prosperity and well-being of their brothers.",
+    location: "Tribal regions across Jharkhand"
+  },
+  {
+    id: 3,
+    name: "Sohrai Festival",
+    date: "October – November (Post-Diwali)",
+    description: "A cattle-worshipping harvest festival where cattle are washed, fed sweet rice, and homes are beautifully decorated with traditional murals.",
+    location: "Hazaribagh, Khunti, Ranchi"
+  }
+];
+
+// ==================== NEW API ROUTES ====================
+app.get('/api/culture', (req, res) => {
+  res.json(cultureData);
+});
+
+app.get('/api/festivals', (req, res) => {
+  res.json(festivalsData);
+});
+
 app.listen(PORT, () => {
   console.log(`Backend running at http://localhost:${PORT}`);
 });
