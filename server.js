@@ -65,21 +65,21 @@ const cultureData = [
     title: "Sohrai & Khovar Art",
     category: "Art & Craft",
     description: "Traditional mural art forms practiced by indigenous women using natural earth colors, manganese mud, and twigs to decorate mud walls during harvest and marriage seasons.",
-    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80"
+    image: "https://i.postimg.cc/zGw6SYWz/a6f36a914cd05498b425f44aead527db.jpg"
   },
   {
     id: 2,
     title: "Chhau Dance & Folk Music",
     category: "Dance & Music",
     description: "A vibrant semi-classical martial art dance recognized by UNESCO, famous for its energetic movements, battle themes, and elaborate handmade masks.",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600&q=80"
+    image: "https://i.postimg.cc/RCX0d271/Chhau-Dance-Festival.jpg"
   },
   {
     id: 3,
     title: "Indigenous Tribes",
     category: "Communities",
     description: "Jharkhand is home to over 30 major tribes including Santhal, Munda, Oraon, Ho, and Kharia, each with unique languages, attires, and rich cultural traditions.",
-    image: "https://images.unsplash.com/photo-1532375810709-75b1da00537c?auto=format&fit=crop&w=600&q=80"
+    image: "https://i.postimg.cc/QCLvJ869/Munda-Tribe-Jharkhand.jpg"
   }
 ];
 
