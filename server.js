@@ -44,7 +44,7 @@ const destinations = [
     category: "Cultural Tourism",
     district: "Khunti",
     description: "Experience authentic indigenous Sohrai and Khovar ritualistic wall murals painted during harvest seasons.",
-    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    image: "https://i.postimg.cc/nV5G592n/Daujinagar-Agaria-Sohrai-(2).jpg",
     bestTimeToVisit: "October to December (Harvest Season)",
     timings: "Open all day",
     attractions: "Traditional Wall Paintings, Tribal Handicrafts, Sacred Temple",
