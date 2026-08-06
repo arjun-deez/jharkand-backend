@@ -116,6 +116,7 @@ app.get('/api/festivals', (req, res) => {
   res.json(festivalsData);
 });
 
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Backend running at http://localhost:${PORT}`);
 });
